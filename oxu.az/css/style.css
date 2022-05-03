@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .man {
+    width: 800px;
+    height: 500px;
+    background-image: url(../img/man.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .man .detail {
+    width: 100%;
+    height: 100px;
+    background-color: #202020;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+  }
+  .man .detail p {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .man .date {
+    position: absolute;
+    width: 40%;
+    height: 45px;
+    background-color: #187881;
+    padding: 0px 20px;
+    bottom: 100px;
+    left: 0%;
+  }
+  .man .date pre {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+  }
+  
+  .man .icons {
+    font-size: 100px;
+    color: #fff;
+    padding: 22px;
+    
+  }
+  
+  .man .left {
+    position: absolute;
+    top: 40%;
+    left: 0%; 
+  }
+  
+  .man .right {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+  }
